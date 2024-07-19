@@ -20,7 +20,6 @@
 }
 
 .cardContainer {
-  width: 1000px;
   margin: 1rem auto;
   display: flex;
   flex-direction: column;
@@ -36,5 +35,5 @@
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   align-items: center;
-  gap: 2rem;
+  gap: 1rem;
 }

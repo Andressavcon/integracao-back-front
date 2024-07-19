@@ -25,7 +25,7 @@ export const Home = (): JSX.Element => {
   }
 
   return (
-    <>
+    <main className="main">
       <button onClick={addBookList} className={styles.button}>
         <span>
           <svg
@@ -66,6 +66,6 @@ export const Home = (): JSX.Element => {
           </div>
         ))}
       </div>
-    </>
+    </main>
   );
 };
