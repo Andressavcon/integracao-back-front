@@ -2,6 +2,8 @@
 
 Este projeto é uma aplicação interativa de lista de livros desenvolvida com React, como parte dos exercícios do Módulo 8 da Cubos Academy, focado na integração de backend com frontend. A aplicação permite adicionar e deletar livros de uma lista, obtendo dados de uma API e manipulando-os dinamicamente.
 
+[Link aplicação](https://books-backfront.netlify.app/)
+
 - API utilizada (https://stephen-king-api.onrender.com/)
 
 Durante o desenvolvimento deste projeto, pude aprimorar minhas habilidades em:
