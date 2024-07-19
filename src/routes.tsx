@@ -14,8 +14,14 @@ export const routes = createBrowserRouter(
       <Route
         index
         loader={() => makeRequest('/api/books', 'GET')}
-        element={<Home />}
+        element={
+          <>
+            <Header />
+            <Home />
+          </>
+        }
       />
+      <Route path="*" element={<h1>404 - Página Não Encontrada</h1>} />
     </Route>
   )
 );
@@ -23,7 +29,6 @@ export const routes = createBrowserRouter(
 function CreatePage() {
   return (
     <>
-      <Header />
       <Outlet />
     </>
   );
